@@ -1,0 +1,11 @@
+[build]
+  command = "expo export:web"
+  publish = "dist"
+
+[images]
+  remote_images = [
+    "https://upload.wikimedia.org/wikipedia/**",
+    "https://cdn4.iconfinder.com/**",
+    "https://static-00.iconduck.com/**",
+    "https://www.simplihire.com/**"
+  ]
